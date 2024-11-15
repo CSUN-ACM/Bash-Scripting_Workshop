@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# While Loop
+a=1
+b=5
+
+while [ $a -lt $b ]; do
+	echo "$a < $b -> a=$a+1"
+	a=$((a+1))
+done
+
+echo "$a == $b"
